@@ -1,0 +1,59 @@
+# Popeye on Mars
+
+## Introduction
+
+In the current project, we design a deployable green house, which can survive in the extreme conditions of Mars surface. The design is based on the assumption that the green house is landed near the equator and the tank is placed at the center of the green house, in order to increase stability of the device.
+
+The place chosen for the landing of the "Popeye on Mars" is the area of Arabia.
+It is optimal as it is next to the equator and it's geology is not extremely hostile to the structure of the capsule.
+Placing the exact point of the landing over the 0 degrees in latitude (5 degrees) and longitude(5 degrees) we avoid posibility of the more extreme weather of the south pole.
+The equator provides us a vertical solar radiation for the use in our PV panels.
+
+Without human intervention, the green house is functional for aproximately 45 days. After this period, the stored O2 and the seeds are ready to be collected. After some elementary maintenance the green house is functional and ready for the next harvest.
+
+## Basic Structure
+
+The size of the green house is 1m^{3}, and consists of:
+ * A cylindrical part of 600mm height  and 1m diameter. This is the basic space of the green house and contains the majority of the mechanical parts and growing materials. The cylindrical part is made of carbon fiber and is 50mm thick.
+* A hemispherical part of 10mm diameter. It is made of optium acrylic material, which is anti-reflective and UV resistant, with a thickness of 6mm.
+
+## Internal structure
+
+The cylindrical part consists of  a water tank, located at the center of the cylinder. The tank is connected to the dome with small tubes which cicrulate water using a water-pump.
+During the first stage of the plants' growth, only water is used. At the second stage, fertilizers are directly injected in the water tank and mix with the circulated water. The amount and the type of injected ingredients (NPK and micro-nutrients) are monitored by an auto-doser.
+Water is enriched with liquid oxygen and it's temperature is regulated in a range of 10 to 20 degrees celcius using a heater or a chiller controlled by thermistor sensors.  Finally, water's electric conductivity and pH are monitored with an ec-meter and a pH-meter.
+
+
+Collection and storing of the oxygen produced by plants is performed by means of a VPSA (Vaccum Pressure Swing Absorption) oxygen concentrator. The absorption system mainly consists of a tower filled with zeolite molecular sieve absorbents and piping valves, etc. Air enters via the top of the tower and passes through the absorbent layer where CO2 and moisture are absorbed by molecular sieve. Oxygen passes through the absorbents freely, consentrates at the bottom of the tower and ends stored in an oxygen tank under pressure. The pressure within the tanks is monitored by using manometers.
+
+Six lithium-ion 12V (10A) batteries, of 30Ah each, are used to power the whole system. Also solar panels are used to recharge the battery through a DC-DC converter of space specs, in order to maintain power supply.
+
+The cylinder also include a pump and a tank that will absorb and store CO2 from the atmosphere of mars in order to use it for several reasons. Pressurized CO2 is essential for operating the hydraulics , for cleaning the solar panels from dust etc. Also, CO2 is needed in order to maintain the air pressure inside the dome when the procedure of pumping and concentrating O2 occurs. 
+
+As for the dome, it consists of a spiral platform, in which the spinach is planted. The spire is strictly painted white in order to use the reflected sunlight , for photosynthesis.  The radius of the spire is 500mm and the width of each spire is 100mm. The pots will contain rock-wool or  hail made in USA of neutral pH ideal for seeds. With a sprinkler , which will be connected with the water supply, micro-droplets of water along with fertilizers , will be sprayed directly to the roots.
+The growing system is based  on aeroponics. The basic principle of aeroponic growing is to grow  plants suspended in a closed or semi-closed environment by spraying the  plant's dangling roots and lower stem with an atomized or sprayed,  nutrient-rich water solution.
+The air inside the dome will consist mostly of CO2. The quantity of O2 will alternate, depending on the stage of growth of the plants and the procedure of concentration of the oxygen, from 10% to 30%... 
+Less than 1% of the total air will consist of other ingredients. A fan placed inside the cylinder, helps the circulation of the air in the dome. From the same tube, CO2 can be emitted,
+in order to maintain the pressure and composer of the dome.
+
+
+The system, that harvests the spinach, consists of a small platform with wheels on both sides, able to move along the spiral structure. The front side of the platform is a sharp razor, which aims to harvest the plants, led by a small electric motor (12V DC motor). The electrical power supply wires, will be placed underneath the platform to avoid technical problems with the wires.
+
+The outer shell is made of lightweight, aluminum honeycomb sandwich construction. Due to the fact that aluminum is electrically conductive, the outer shell can be rendered into a faraday cage, operating as a shield, and protecting the solar panels and electronics from damages occurred by solar storms. The shell will be coated internally with aerogel, in order to thermally insulate the greenhouse. The shell externally will be painted silicon blue, to minimize the loss in heat.
+
+The solar panels when the shell is open, will expand around the perimeter of the greenhouse. They will use flexible, thin technology with 40% efficiency. Rational model 25% efficiency least imfimum and they produce 
+6m^2  589W/m^2
+                                                                                
+                                     
+
+
+
+Reactions
+6CO2+12H2O+light → C6H12O6+6O2+6H2O
+4H2+CO2 (cat)→ CH4+2H2O
+NaBH4+2H2O (cat)→ 4H2+NaBO2
+
+
+
+
+
