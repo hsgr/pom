@@ -54,6 +54,48 @@ Reactions
 NaBH4+2H2O (cat)→ 4H2+NaBO2
 
 
+POM-electronics
+
+The main component of our system is a Arduino Mega 2560 board. We selected this hardware unit in order to use many input and output nodes. Also, we used sensors connected to i2c and serial pins. Specifically,
+
+    PH-sensor: https://www.sparkfun.com/products/10972
+
+    It is connected to the serial port of our main system component as shown in schematic file.
+
+    IMU: https://www.sparkfun.com/products/11028
+
+    It measures the pitch and the roll angles of the capsule and communicates through the bus  of the i2c protocol of our  system.
+
+    Humidity and Temperature Sensor : https://www.sparkfun.com/products/11295
+
+   It communicates through the bus of the i2c protocol of our system.
+
+    Barometric Pressure Sensor: https://www.sparkfun.com/products/11282
+
+    It communicates through the bus of the i2c protocol of our system.
+
+    Light Sensor: https://www.sparkfun.com/products/10901
+
+    It communicates through the bus of the i2c protocol of our system.
+
+    EC-Meter: http://www.practicalmaker.com/documentation/ec-shield-documentation
+
+    This component is not our preferable one as it does not connect through i2c. we prefer i2c in order to have all the sensors on the same bus. We would use another one, but we couldn't find any.
+
+    Radiation Sensor: http://www.cooking-hacks.com/index.php/documentation/tutorials/geiger-counter-arduino-radiation-sensor-board#intro
+
+    we use part of the sensor described above to fulfill the sensing of radiation of our system.
+
+    Oxygen sensor:  possible extra solution for the system
+
+
+The actuators are used to function the doser system (5 parts) and 8 more for the pneumatic system of shell movement. They use the PWM method of control through the system. The circuit for the drive of the two modules are shown in the schematic and the specs for the components used are placed here http://www.ebay.com/itm/Marine-Magic-Replacement-Aquarium-dosing-pump-head-/281030701506?pt=LH_DefaultDomain_0&hash=item416ebc31c2 http://www.ebay.com/itm/5-2-Way-Solenoid-Pilot-Pneumatic-Air-Valve-1-4-12-V-DC-/260414547159 .
+
+we also use a voltage regulator (shown also on the schematic(power supply)) for the distribution of the voltage on the system.
+
+The reason for selecting the i2c protocol for the communication of our subsystems is that it's a usual selection of NASA for such space applications (so  it is tested a lot) and that the specs of the protocol highly cover the requirements of our system.
+
+
 
 
 
