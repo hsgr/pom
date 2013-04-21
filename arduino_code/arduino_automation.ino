@@ -9,7 +9,7 @@ In casual mode:
 temperature sensor input
 - properly controlling nutrient solution acidity according to simulated
 pH sensor input
-- properly stabilising dome pressure accordin to simulated inpu
+- properly stabilising dome pressure accordin to simulated input
 In drying mode:
 -TODO
 */
@@ -25,6 +25,9 @@ System state is:
 */
 int system_state=50;
 
+//is the env in daylight state?
+boolean daylight=true;
+
 //true for resistor heating on
 boolean res_mode=false;
 
@@ -33,11 +36,11 @@ const double min_noheat_temp=10.0;
 
 const float ph_hi_thr=5.3;//pH units
 const float ph_lo_thr=5.2;
-const int ph_doser_timeout=1500;
-int ph_action_timestamp;
+const unsigned long ph_doser_timeout=1500;
+unsigned long ph_action_timestamp;
 
 /*
--1 if pumping air inside
+-1 if pumping air inside the dome
 0 if idle
 1 if letting air flow outside
 */
@@ -47,16 +50,30 @@ const float min_pressure=22.0;
 const float max_pressure_pumpin=26.0;
 const float min_pressure_pumpout=23.0;
 
+/*
+-1 if pumping air in o2 stroage
+0 if idle
+1 if letting air flow outside
+*/
+int o2_valve_state=0;
+/*Stop or set o2 output during night, o2 lvl falls naturally*/
+const float max_night_o2_density=0.2;
+const float min_night_o2_density=0.1;
+/*Stop or set 02 input during day, o2 lvl rises naturally*/
+const float max_day_o2_density=0.2;
+const float min_day_o2_density=0.1;
+//Clean the valve in daybreak
+boolean todo_clean_o2_valve=false;
+unsigned long o2_valve_cleaning_timestamp;
+const unsigned long o2_valve_cleaning_interval=1000;
+
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pin as an output.
   pinMode(led, OUTPUT);    
   
-  // start serial port at 9600 bps:
+  // start dbg serial port at 9600 bps, no need to wait
   Serial.begin(9600);
-  while (!Serial) {
-     ; // wait for serial port to connect. Needed for Leonardo only
-  }
   
   ph_action_timestamp=millis();
 }
@@ -64,9 +81,11 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   
-  int cur_time=millis();
+  unsigned long cur_time=millis();
   if(system_state==50){
-   
+     
+    //TODO determine daylight, timing
+    
     //master temperature mgmt
     float temp = get_temperature();
     if(res_mode){
@@ -120,6 +139,60 @@ void loop() {
       }
     }
     
+    //o2 concentration mgmt
+    float o2_dens=get_02_density();
+    //TODO determine daylight for cleaning timing
+    
+    
+    if(daylight){
+      //day
+      if(todo_clean_o2_valve){
+        todo_clean_o2_valve=false;
+        o2_valve_cleaning_timestamp=millis();
+        update_o2_valve_state(1);
+      }
+      
+      if(cur_time-o2_valve_cleaning_timestamp<o2_valve_cleaning_interval){
+        //cleaning time
+        if(o2_valve_state!=1){
+          update_o2_valve_state(1);
+        }
+      }
+      else{
+        //stable day o2 concentration is storing or not
+        if(o2_valve_state==0){
+          if(o2_dens>max_day_o2_density){
+            //start valve
+            update_o2_valve_state(-1);
+          }
+        }
+        else if(o2_valve_state==-1){
+          if(o2_dens<min_day_o2_density){
+            update_o2_valve_state(0);
+          } 
+        }
+        else if(o2_valve_state==1){
+          update_o2_valve_state(0);
+        }
+      }
+    }
+    else{
+      //night
+      if(o2_valve_state==0){
+        if(o2_dens<min_night_o2_density){
+          update_o2_valve_state(1);
+        }
+      }
+      else if(o2_valve_state==1){
+        if(o2_dens>max_night_o2_density){
+          update_o2_valve_state(0);
+        }
+      }
+      else if(o2_valve_state==-1){
+        update_o2_valve_state(0);
+      }
+    }
+    
     //report debug
     Serial.print(temp);
     Serial.print(' ');
@@ -157,8 +230,10 @@ void doser_decrease_ph(){
   //TODO
 }
 
+//dome mgmt interface
 float get_dome_pressure(){
   //TODO
+  return analogRead(A2)/1024.0*40.0;
 }
 
 void update_outer_valve_state(int set){
@@ -182,3 +257,40 @@ void set_outer_valve_state(int set){
     default:break;
   }
 }
+//end dome mgmt interface
+
+//o2 concentration mgmt interface
+float get_02_density(){
+  //TODO
+  return analogRead(A3)/1024.0;
+}
+
+void update_o2_valve_state(int set){
+  set_o2_valve_state(set);
+  o2_valve_state=set;
+}
+
+void set_o2_valve_state(int set){
+  //TODO
+  switch(set){
+    case -1:
+    
+    break;
+    case 0:
+    
+    break;
+    case 1:
+    
+    break;
+    
+    default:break;
+  }
+}
+
+//end 02 concentration mgmt interface
+
+//daylight sensing interface
+bool get_daylight(){
+  return analogRead(A4)>500;
+}
+//end daylight sensing interface
