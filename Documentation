@@ -2,20 +2,31 @@
 
 ## Introduction
 
-In the current project, we design a deployable green house, which can survive in the extreme conditions of Mars surface. The design is based on the assumption that the green house is landed near the equator and the tank is placed at the center of the green house, in order to increase stability of the device.
+In the current project, we design a deployable green house, which can survive in the extreme conditions of Mars surface.
 
-The place chosen for the landing of the "Popeye on Mars" is the area of Arabia.
-It is optimal as it is next to the equator and it's geology is not extremely hostile to the structure of the capsule.
-Placing the exact point of the landing over the 0 degrees in latitude (5 degrees) and longitude(5 degrees) we avoid posibility of the more extreme weather of the south pole.
-The equator provides us a vertical solar radiation for the use in our PV panels.
+The design is based on the assumption that the green house will be landed near the equator. A landing area like [Arabia](http://en.wikipedia.org/wiki/Arabia_Terra) ([~ 5 degrees latitude and longitude](http://www.google.com/mars/#lat=5.000000&lon=-5.000000)) seems to be the optimal one. In such an area, the sun rays hit verticaly the photovoltaic (PV) panels, there are no extreme weather conditions like in Mars' south pole and the geology of the area is smooth enough for deploying the green house.
 
-Without human intervention, the green house is functional for aproximately 45 days. After this period, the stored O2 and the seeds are ready to be collected. After some elementary maintenance the green house is functional and ready for the next harvest.
+Without human intervention, the green house functions for aproximately 45 days when spinach is planted. This period can vary up to 65 days depending on the planted plants. After this period, the stored oxygen (O2) and the produced seeds are ready to be collected. After elementary maintenance and planting the seeds, the green house is functional again and ready for the next harvest.
 
 ## Basic Structure
 
-The size of the green house is 1m^{3}, and consists of:
- * A cylindrical part of 600mm height  and 1m diameter. This is the basic space of the green house and contains the majority of the mechanical parts and growing materials. The cylindrical part is made of carbon fiber and is 50mm thick.
-* A hemispherical part of 10mm diameter. It is made of optium acrylic material, which is anti-reflective and UV resistant, with a thickness of 6mm.
+The green house consists of two main parts:
+
+* the external part (covers and PV panels)
+* the internal part (main body)
+
+The volume of the green house, before deployment and during the (Mars) night is around one cubic meter. The thickness of the green house cover is 100mm. There is also 50mm space between the cover and the main body for the PV panels.
+
+![Night mode image](http://i.imgur.com/JPMG3hL.png)
+
+During the day, when the covers open and the PV panels are deployed, the green house occupies a circle area of around 1.5 meters radius.
+
+![Day mode image](http://i.imgur.com/DHoo89G.png)
+
+The main body of the green house consists of:
+
+* A cylindrical part of 600mm height, 500mm radius and 50mm thickness made of carbon fiber. This is where the majority of the mechanical parts and growing materials are stored.
+* A hemispherical part of 500mm radius and 6mm thickness placed on top of the cylindrical part. It is made of optium acrylic material, which is anti-reflective and UV resistant.
 
 ## Internal structure
 
