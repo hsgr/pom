@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="32cm" viewBox="54 117 645 625" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="196.904,192 362.082,192 342.428,246 177.25,246 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="196.904,192 362.082,192 342.428,246 177.25,246 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="269.666" y="215.8">
+      <tspan x="269.666" y="215.8">get temperature</tspan>
+      <tspan x="269.666" y="231.8">measurement</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="260.071,279 321.141,321.86 260.071,364.72 199,321.86 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.071,279 321.141,321.86 260.071,364.72 199,321.86 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260.071" y="326.66">
+      <tspan x="260.071" y="326.66">heating on</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="259.839,246 259.839,249.61 260.071,249.61 260.071,269.264 "/>
+    <polygon style="fill: #000000" points="260.071,276.764 255.071,266.764 260.071,269.264 265.071,266.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.071,276.764 255.071,266.764 260.071,269.264 265.071,266.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="321.141,321.86 321.141,320 483.988,320 483.988,377.264 "/>
+    <polygon style="fill: #000000" points="483.988,384.764 478.988,374.764 483.988,377.264 488.988,374.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="483.988,384.764 478.988,374.764 483.988,377.264 488.988,374.764 "/>
+  </g>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="341" y="300">
+    <tspan x="341" y="300">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="603" y="420">
+    <tspan x="603" y="420">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="181" y="300">
+    <tspan x="181" y="300">N</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="143" y="520">
+    <tspan x="143" y="520">N</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="483.988,387 588.976,439.494 483.988,491.988 379,439.494 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="483.988,387 588.976,439.494 483.988,491.988 379,439.494 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="483.988" y="436.294">
+      <tspan x="483.988" y="436.294">temperature &lt;</tspan>
+      <tspan x="483.988" y="452.294">max temperature</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="161.988,390 268.741,440.011 161.988,490.022 55.2358,440.011 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="161.988,390 268.741,440.011 161.988,490.022 55.2358,440.011 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="161.988" y="436.811">
+      <tspan x="161.988" y="436.811">temperature &lt;</tspan>
+      <tspan x="161.988" y="452.811">min temperature</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="199,321.86 199,320 164.988,320 164.988,380.264 "/>
+    <polygon style="fill: #000000" points="164.988,387.764 159.988,377.764 164.988,380.264 169.988,377.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="164.988,387.764 159.988,377.764 164.988,380.264 169.988,377.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="588.976,439.494 588.976,438.14 641.266,438.14 641.266,509.263 "/>
+    <polygon style="fill: #000000" points="641.266,516.763 636.266,506.763 641.266,509.263 646.266,506.763 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="641.266,516.763 636.266,506.763 641.266,509.263 646.266,506.763 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="271.74,440.012 271.74,438.646 322.041,438.646 322.041,509.268 "/>
+    <polygon style="fill: #000000" points="322.041,516.768 317.041,506.768 322.041,509.268 327.041,506.768 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.041,516.768 317.041,506.768 322.041,509.268 327.041,506.768 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="164.988,490.022 164.988,680 313.264,680 "/>
+    <polygon style="fill: #000000" points="320.764,680 310.764,685 313.264,680 310.764,675 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="320.764,680 310.764,685 313.264,680 310.764,675 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="322.142" y1="561.002" x2="322.953" y2="730.264"/>
+    <polygon style="fill: #000000" points="322.989,737.764 317.941,727.788 322.953,730.264 327.941,727.74 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="322.989,737.764 317.941,727.788 322.953,730.264 327.941,727.74 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="643,560 643,680 492.736,680 "/>
+    <polygon style="fill: #000000" points="485.236,680 495.236,675 492.736,680 495.236,685 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="485.236,680 495.236,675 492.736,680 495.236,685 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="483.988,491.988 483.988,680 332.736,680 "/>
+    <polygon style="fill: #000000" points="325.236,680 335.236,675 332.736,680 335.236,685 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="325.236,680 335.236,675 332.736,680 335.236,685 "/>
+  </g>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="463" y="520">
+    <tspan x="463" y="520">N</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="279.559,520 379.082,520 364.524,560 265,560 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="279.559,520 379.082,520 364.524,560 265,560 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="322.041" y="544.8">
+      <tspan x="322.041" y="544.8">start heating</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="599.559,520 697.532,520 682.974,560 585,560 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="599.559,520 697.532,520 682.974,560 585,560 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="641.266" y="544.8">
+      <tspan x="641.266" y="544.8">stop heating</tspan>
+    </text>
+  </g>
+  <text font-size="22.6794" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="140">
+    <tspan x="300" y="140">Popeye on Mars greenhouse project</tspan>
+    <tspan x="300" y="168.349">Temperature management flowchart</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260,120 260,156.5 260.232,156.5 260.232,183.264 "/>
+    <polygon style="fill: #000000" points="260.232,190.764 255.232,180.764 260.232,183.264 265.232,180.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="260.232,190.764 255.232,180.764 260.232,183.264 265.232,180.764 "/>
+  </g>
+</svg>
