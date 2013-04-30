@@ -38,6 +38,34 @@
         IR+  ------------------------  5V (3.3V is fine too)
  */
 
+const int VCNL4000_ADDRESS=0x13; // 0x26 write, 0x27 read
+// VCNL4000 Register Map
+const int COMMAND_0=0x80;  // starts measurments, relays data ready info
+const int PRODUCT_ID =0x81;  // product ID/revision ID, should read 0x11
+const int IR_CURRENT =0x83;  // sets IR current in steps of 10mA 0-200mA
+const int AMBIENT_PARAMETER =0x84;  // Configures ambient light measures
+const int AMBIENT_RESULT_MSB =0x85;  // high byte of ambient light measure
+const int AMBIENT_RESULT_LSB =0x86;  // low byte of ambient light measure
+const int PROXIMITY_RESULT_MSB =0x87;  // High byte of proximity measure
+const int PROXIMITY_RESULT_LSB= 0x88;  // low byte of proximity measure
+const int PROXIMITY_FREQ= 0x89;  // Proximity IR test signal freq, 0-3
+const int PROXIMITY_MOD =0x8A;  // proximity modulator timing
+
+void init_vcl4000(){
+  /* Test that the device is working correctly */
+  byte temp = vcl4000_read_byte(PRODUCT_ID);
+  if (temp != 0x11){
+    Serial.print("Something's wrong. Not reading correct ID: 0x");
+    Serial.println(temp, HEX);
+  }
+  /* Now some VNCL400 initialization stuff
+     Feel free to play with any of these values, but check the datasheet first!*/
+  vcl4000_write_byte(AMBIENT_PARAMETER, 0x0F);  // Single conversion mode, 128 averages
+  vcl4000_write_byte(IR_CURRENT, 20);  // Set IR current to 200mA
+  vcl4000_write_byte(PROXIMITY_FREQ, 2);  // 781.25 kHz
+  vcl4000_write_byte(PROXIMITY_MOD, 0x81);  // 129, recommended by Vishay
+}
+
 // readProximity() returns a 16-bit value from the VCNL4000's proximity data registers
 unsigned int readProximity()
 {
@@ -56,7 +84,7 @@ unsigned int readProximity()
 }
 
 // readAmbient() returns a 16-bit value from the VCNL4000's ambient light data registers
-unsigned int readAmbient()
+unsigned int vcnl4000_readAmbient()
 {
   unsigned int data;
   byte temp;

@@ -20,6 +20,10 @@
 
 const unsigned char bmp085_OSS = 0;  // Oversampling Setting
 
+void init_bmp085(){
+  bmp085Calibration();
+}
+
 // Calibration values
 int bmp085_ac1;
 int bmp085_ac2; 
