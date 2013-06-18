@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="33cm" viewBox="334 -3 445 645" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="364.118,125 475.115,125 455.461,179 344.464,179 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="364.118,125 475.115,125 455.461,179 344.464,179 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="409.79" y="148.8">
+      <tspan x="409.79" y="148.8">get pH</tspan>
+      <tspan x="409.79" y="164.8">measurement</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="399.735,216.842 463.88,261.859 399.735,306.876 335.59,261.859 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="399.735,216.842 463.88,261.859 399.735,306.876 335.59,261.859 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="399.735" y="258.659">
+      <tspan x="399.735" y="258.659">pH &lt;</tspan>
+      <tspan x="399.735" y="274.659">min pH</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="399.963,179 399.963,189.609 399.734,189.609 399.734,207.106 "/>
+    <polygon style="fill: #000000" points="399.734,214.606 394.734,204.606 399.734,207.106 404.734,204.606 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="399.734,214.606 394.734,204.606 399.734,207.106 404.734,204.606 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="463.88,261.86 463.88,260 640,260 640,330.264 "/>
+    <polygon style="fill: #000000" points="640,337.764 635,327.764 640,330.264 645,327.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="640,337.764 635,327.764 640,330.264 645,327.764 "/>
+  </g>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480.664" y="240">
+    <tspan x="480.664" y="240">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="320">
+    <tspan x="380" y="320">N</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="399.734,306.876 399.734,320 400.144,320 400.144,369.264 "/>
+    <polygon style="fill: #000000" points="400.144,376.764 395.144,366.764 400.144,369.264 405.144,366.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.144,376.764 395.144,366.764 400.144,369.264 405.144,366.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="640,380 640,600 409.736,600 "/>
+    <polygon style="fill: #000000" points="402.236,600 412.236,595 409.736,600 412.236,605 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.236,600 412.236,595 409.736,600 412.236,605 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="400.145,379 464.29,424.017 400.145,469.034 336,424.017 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.145,379 464.29,424.017 400.145,469.034 336,424.017 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="400.145" y="420.817">
+      <tspan x="400.145" y="420.817">pH &gt;</tspan>
+      <tspan x="400.145" y="436.817">max pH</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="464.29,424.018 464.29,422.158 520,422.158 520,490.264 "/>
+    <polygon style="fill: #000000" points="520,497.764 515,487.764 520,490.264 525,487.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="520,497.764 515,487.764 520,490.264 525,487.764 "/>
+  </g>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480.074" y="402.158">
+    <tspan x="480.074" y="402.158">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="479">
+    <tspan x="380" y="479">N</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.144,469.034 400.144,482.158 400,482.158 400,630.264 "/>
+    <polygon style="fill: #000000" points="400,637.764 395,627.764 400,630.264 405,627.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400,637.764 395,627.764 400,630.264 405,627.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="520,540 520,580 409.736,580 "/>
+    <polygon style="fill: #000000" points="402.236,580 412.236,575 409.736,580 412.236,585 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.236,580 412.236,575 409.736,580 412.236,585 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="594.559,340 694.882,340 680.324,380 580,380 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="594.559,340 694.882,340 680.324,380 580,380 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="637.441" y="364.8">
+      <tspan x="637.441" y="364.8">enable doser</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="474.559,500 576.732,500 562.174,540 460,540 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="474.559,500 576.732,500 562.174,540 460,540 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="518.366" y="524.8">
+      <tspan x="518.366" y="524.8">disable doser</tspan>
+    </text>
+  </g>
+  <text font-size="22.6794" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="20">
+    <tspan x="340" y="20">Popeye on Mars greenhouse project</tspan>
+    <tspan x="340" y="48.3492">Nutrient solution pH management flowchart</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400,85 400,95.6092 399.771,95.6092 399.771,113.106 "/>
+    <polygon style="fill: #000000" points="399.771,120.606 394.771,110.606 399.771,113.106 404.771,110.606 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="399.771,120.606 394.771,110.606 399.771,113.106 404.771,110.606 "/>
+  </g>
+</svg>
