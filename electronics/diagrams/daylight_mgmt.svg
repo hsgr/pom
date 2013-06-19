@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="37cm" height="62cm" viewBox="74 141 734 1240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="157.654,184 322.832,184 303.178,238 138,238 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="157.654,184 322.832,184 303.178,238 138,238 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="230.416" y="207.8">
+      <tspan x="230.416" y="207.8">get daylight</tspan>
+      <tspan x="230.416" y="223.8">measurement</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="220.563,280 338.126,338.782 220.563,397.563 103,338.782 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.563,280 338.126,338.782 220.563,397.563 103,338.782 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220.563" y="335.582">
+      <tspan x="220.563" y="335.582">holding measurement</tspan>
+      <tspan x="220.563" y="351.582">= day</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="532.999,379.444 650.112,438.001 532.999,496.557 415.886,438.001 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="532.999,379.444 650.112,438.001 532.999,496.557 415.886,438.001 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="532.999" y="434.801">
+      <tspan x="532.999" y="434.801">current measurement</tspan>
+      <tspan x="532.999" y="450.801">&lt; night threshold</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="701" y="496" width="40" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="701" y="496" width="40" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="721" y="519.8">
+      <tspan x="721" y="519.8"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="672.276" y="493" width="131.45" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="672.276" y="493" width="131.45" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="738.001" y="516.8">
+      <tspan x="738.001" y="516.8">reset measurement</tspan>
+      <tspan x="738.001" y="532.8">hold timer</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="669.85" y="611" width="136.3" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="669.85" y="611" width="136.3" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="738" y="634.8">
+      <tspan x="738" y="634.8">hold measurement</tspan>
+      <tspan x="738" y="650.8">= night</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.589,238 220.589,260 220.564,260 220.564,270.264 "/>
+    <polygon style="fill: #000000" points="220.564,277.764 215.564,267.764 220.564,270.264 225.564,267.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.564,277.764 215.564,267.764 220.564,270.264 225.564,267.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="738,547 738,607 738,607 738,601.264 "/>
+    <polygon style="fill: #000000" points="738,608.764 733,598.764 738,601.264 743,598.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="738,608.764 733,598.764 738,601.264 743,598.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="338.126,338.782 338.126,340 533,340 533,369.708 "/>
+    <polygon style="fill: #000000" points="533,377.208 528,367.208 533,369.708 538,367.208 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="533,377.208 528,367.208 533,369.708 538,367.208 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="650.114,438 738,438 738,483.264 "/>
+    <polygon style="fill: #000000" points="738,490.764 733,480.764 738,483.264 743,480.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="738,490.764 733,480.764 738,483.264 743,480.764 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="220.563,542 338.126,600.782 220.563,659.563 103,600.782 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.563,542 338.126,600.782 220.563,659.563 103,600.782 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220.563" y="597.582">
+      <tspan x="220.563" y="597.582">holding measurement</tspan>
+      <tspan x="220.563" y="613.582">= night</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="442.463,622.226 559.576,680.783 442.463,739.339 325.35,680.783 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="442.463,622.226 559.576,680.783 442.463,739.339 325.35,680.783 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="442.463" y="677.583">
+      <tspan x="442.463" y="677.583">current measurement</tspan>
+      <tspan x="442.463" y="693.583">&gt; day threshold</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="554.738" y="771.782" width="131.45" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="554.738" y="771.782" width="131.45" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="620.463" y="795.582">
+      <tspan x="620.463" y="795.582">reset measurement</tspan>
+      <tspan x="620.463" y="811.582">hold timer</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="550.314" y="877.782" width="136.3" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="550.314" y="877.782" width="136.3" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.464" y="901.582">
+      <tspan x="618.464" y="901.582">hold measurement</tspan>
+      <tspan x="618.464" y="917.582">= day</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="338.126,600.782 338.126,602.5 442.464,602.5 442.464,612.49 "/>
+    <polygon style="fill: #000000" points="442.464,619.99 437.464,609.99 442.464,612.49 447.464,609.99 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="442.464,619.99 437.464,609.99 442.464,612.49 447.464,609.99 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559.576,680.782 559.576,682 620.464,682 620.464,762.046 "/>
+    <polygon style="fill: #000000" points="620.464,769.546 615.464,759.546 620.464,762.046 625.464,759.546 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="620.464,769.546 615.464,759.546 620.464,762.046 625.464,759.546 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.564,397.564 220.564,416 220.564,416 220.564,532.264 "/>
+    <polygon style="fill: #000000" points="220.564,539.764 215.564,529.764 220.564,532.264 225.564,529.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.564,539.764 215.564,529.764 220.564,532.264 225.564,529.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="415.886,438 415.886,440 227.736,440 "/>
+    <polygon style="fill: #000000" points="220.236,440 230.236,435 227.736,440 230.236,445 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.236,440 230.236,435 227.736,440 230.236,445 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="219.638,802 337.276,860.819 219.638,919.638 102,860.819 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.638,802 337.276,860.819 219.638,919.638 102,860.819 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="219.638" y="857.619">
+      <tspan x="219.638" y="857.619">holding time</tspan>
+      <tspan x="219.638" y="873.619">&gt; hold time threshold</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="340.45" y="924" width="157.1" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340.45" y="924" width="157.1" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="419" y="947.8">
+      <tspan x="419" y="947.8">day state</tspan>
+      <tspan x="419" y="963.8">= current measurement</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="337.276,860.82 337.276,862 419,862 419,914.264 "/>
+    <polygon style="fill: #000000" points="419,921.764 414,911.764 419,914.264 424,911.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419,921.764 414,911.764 419,914.264 424,911.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220.564,659.564 220.564,661 219.638,661 219.638,792.264 "/>
+    <polygon style="fill: #000000" points="219.638,799.764 214.638,789.764 219.638,792.264 224.638,789.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.638,799.764 214.638,789.764 219.638,792.264 224.638,789.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419,978 419,1021.5 228.736,1021.5 "/>
+    <polygon style="fill: #000000" points="221.236,1021.5 231.236,1016.5 228.736,1021.5 231.236,1026.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="221.236,1021.5 231.236,1016.5 228.736,1021.5 231.236,1026.5 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="619.755" y1="826.748" x2="618.71" y2="868.049"/>
+    <polygon style="fill: #000000" points="618.521,875.547 613.775,865.423 618.71,868.049 623.772,865.676 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="618.521,875.547 613.775,865.423 618.71,868.049 623.772,865.676 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="325.35" y1="680.782" x2="228.735" y2="681.889"/>
+    <polygon style="fill: #000000" points="221.236,681.974 231.178,676.86 228.735,681.889 231.293,686.86 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="221.236,681.974 231.178,676.86 228.735,681.889 231.293,686.86 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="618.464,931.782 618.464,1060.5 228.622,1060.5 "/>
+    <polygon style="fill: #000000" points="221.122,1060.5 231.122,1055.5 228.622,1060.5 231.122,1065.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="221.122,1060.5 231.122,1055.5 228.622,1060.5 231.122,1065.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="738,665 738,1060.5 625.486,1060.5 "/>
+    <polygon style="fill: #000000" points="617.986,1060.5 627.986,1055.5 625.486,1060.5 627.986,1065.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="617.986,1060.5 627.986,1055.5 625.486,1060.5 627.986,1065.5 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="219.75,1136.41 285.938,1169.5 219.75,1202.59 153.562,1169.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.75,1136.41 285.938,1169.5 219.75,1202.59 153.562,1169.5 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="219.75" y="1174.3">
+      <tspan x="219.75" y="1174.3">day state</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="285.938,1169.5 285.938,1170.5 305.75,1170.5 305.75,1211.76 "/>
+    <polygon style="fill: #000000" points="305.75,1219.26 300.75,1209.26 305.75,1211.76 310.75,1209.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="305.75,1219.26 300.75,1209.26 305.75,1211.76 310.75,1209.26 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="153.562,1169.5 153.562,1171.5 125.65,1171.5 125.65,1213.76 "/>
+    <polygon style="fill: #000000" points="125.65,1221.26 120.65,1211.26 125.65,1213.76 130.65,1211.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125.65,1221.26 120.65,1211.26 125.65,1213.76 130.65,1211.26 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.638,919.638 219.638,1094.5 219.75,1094.5 219.75,1126.67 "/>
+    <polygon style="fill: #000000" points="219.75,1134.17 214.75,1124.17 219.75,1126.67 224.75,1124.17 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.75,1134.17 214.75,1124.17 219.75,1126.67 224.75,1124.17 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125.65,1261.5 125.65,1318.5 219.75,1318.5 219.75,1368.76 "/>
+    <polygon style="fill: #000000" points="219.75,1376.26 214.75,1366.26 219.75,1368.76 224.75,1366.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.75,1376.26 214.75,1366.26 219.75,1368.76 224.75,1366.26 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="305.75,1259.5 305.75,1318.5 219.75,1318.5 219.75,1367.76 "/>
+    <polygon style="fill: #000000" points="219.75,1375.26 214.75,1365.26 219.75,1367.76 224.75,1365.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.75,1375.26 214.75,1365.26 219.75,1367.76 224.75,1365.26 "/>
+  </g>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="351.75" y="325">
+    <tspan x="351.75" y="325">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="576.75" y="664">
+    <tspan x="576.75" y="664">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="350.55" y="591.25">
+    <tspan x="350.55" y="591.25">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320.45" y="664.25">
+    <tspan x="320.45" y="664.25">N</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="660.35" y="424.25">
+    <tspan x="660.35" y="424.25">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="204.25" y="677.25">
+    <tspan x="204.25" y="677.25">N</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="301.15" y="1158.75">
+    <tspan x="301.15" y="1158.75">day</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="118.05" y="1157.75">
+    <tspan x="118.05" y="1157.75">night</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="345.95" y="844.75">
+    <tspan x="345.95" y="844.75">Y</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="199.65" y="421.75">
+    <tspan x="199.65" y="421.75">N</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="395.55" y="428.75">
+    <tspan x="395.55" y="428.75">N</tspan>
+  </text>
+  <text font-size="16.2447" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200.65" y="943.25">
+    <tspan x="200.65" y="943.25">N</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="89.5588,1221 175.132,1221 160.574,1261 75,1261 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="89.5588,1221 175.132,1221 160.574,1261 75,1261 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="125.066" y="1245.8">
+      <tspan x="125.066" y="1245.8">close shell</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="269.559,1220 354.832,1220 340.274,1260 255,1260 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="269.559,1220 354.832,1220 340.274,1260 255,1260 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="304.916" y="1244.8">
+      <tspan x="304.916" y="1244.8">open shell</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="220,142 220,158 219.975,158 219.975,174.264 "/>
+    <polygon style="fill: #000000" points="219.975,181.764 214.975,171.764 219.975,174.264 224.975,171.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.975,181.764 214.975,171.764 219.975,174.264 224.975,171.764 "/>
+  </g>
+  <text font-size="22.6794" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="180">
+    <tspan x="360" y="180">Popeye on Mars greenhouse project</tspan>
+    <tspan x="360" y="208.349">Day/night cycle management flowchart</tspan>
+  </text>
+</svg>
